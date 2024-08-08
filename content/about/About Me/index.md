@@ -5,7 +5,7 @@ draft = false
 math = false
 +++
 
-Enjoyer of pure mathematics || cybsec/data science/AT || artist/animator || pianist in works || aprendiendo español para enseñar matemáticas p. ej. calculo 3 || love cats || reading literature and philosophy || python/js/cpp/c/rust/java[^1] 
+Enjoyer of pure mathematics || cybsec/data science/AT || artist/animator || pianist in works || aprendiendo español para enseñar matemáticas p. ej. calculo 3 || love cats || reading literature and philosophy || Taekwondo enthusiast || python/js/cpp/c/rust/java[^1] 
 
 ![](cat-5308440_1280.jpg)[^2]
 

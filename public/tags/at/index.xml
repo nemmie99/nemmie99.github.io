@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nemmieblogsite</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on nemmieblogsite</description>
+    <title>AT on nemmieblogsite</title>
+    <link>http://localhost:1313/tags/at/</link>
+    <description>Recent content in AT on nemmieblogsite</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Aug 2024 03:16:57 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about/about-me/</link>
-      <pubDate>Thu, 08 Aug 2024 03:16:57 -0400</pubDate>
-      <guid>http://localhost:1313/about/about-me/</guid>
-      <description>Enjoyer of pure mathematics || cybsec/data science/AT || artist/animator || pianist in works || aprendiendo español para enseñar matemáticas p. ej. calculo 3 || love cats || reading literature and philosophy || python/js/cpp/c/rust/java1&#xA;2&#xA;take a guess which is my least favorite language&amp;#160;&amp;#x21a9;&amp;#xfe0e;&#xA;cute russian blue&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
-    </item>
+    <lastBuildDate>Tue, 14 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/at/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>thoughts on the future of TRATATE</title>
       <link>http://localhost:1313/posts/tratate-update-%230/</link>

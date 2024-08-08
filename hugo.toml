@@ -1,4 +1,37 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'nemmieblogsite'
 theme = "nightfall"
+
+[params]
+user = "ajpatt27"
+hostname = "mit.edu"
+
+  [params.author]
+    name = "Andre J Patterson"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/nemmie99"
+
+[[params.social]]
+key = 1
+name = "instagram"
+url = "https://www.instagram.com/nemmie99/"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:ajpatt27@mit.edu"
+
+
+[menu]
+    [[menu.header]]
+        name = "about"
+        weight = 0
+        url = "/about"
+    [[menu.header]]
+        name = "posts"
+        weight = 0
+        url = "/posts"

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>
+thoughts on the future of TRATATE | Andre J Patterson
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="TL;DR: Planning on rehauling TRATATE to promote better structure and functionality.">
+
+<meta name="generator" content="Hugo 0.131.0">
+
+
+<link rel="canonical" href="http://localhost:1313/posts/tratate-update-%230/" >
+
+
+
+
+<link href="/css/style.min.d23c1980faa61c0d6b331a0cd9dbc34fb7dade9e294067f1108fb8f26bd7796c.css" rel="stylesheet">
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a class="terminal" href="http://localhost:1313/">
+                <span>ajpatt27@mit.edu ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="http://localhost:1313/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="http://localhost:1313/posts" title="" >
+                        ~/posts</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>thoughts on the future of TRATATE</h1>
+    
+    	<p>TL;DR: Planning on rehauling TRATATE to promote better structure and functionality.</p>
+    
+    
+    <section class="postMetadata">
+        <dl>
+            
+                
+<dt>tags</dt>
+<dd><span></span>
+    <a href="/tags/at/">#AT</a></dd>
+            
+            
+            
+            
+                <dt>published</dt>
+                
+                <dd><time datetime="2024-05-14">May 14, 2024</time></dd>
+            
+            
+                <dt>reading time</dt>
+                <dd>3 minutes</dd>
+            
+        </dl>
+    </section>
+    
+    <div>
+        <p>As of right now, it&rsquo;s been a while since I&rsquo;ve updated TRATATE<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, which was mostly due to school and a general loss of interest. I&rsquo;ve come full circle funnily enough, thinking about how to effectively manage tasks again and failing to find a tool that fits my specific needs. What are those needs? Currently, it&rsquo;s only one: I&rsquo;d like a program that is awfully simple to use, but under the hood takes into consideration user preferences and past task completion data to make a proper schedule&hellip; Okay, well maybe more than one but the gist of what it should do is presented here.</p>
+<p>I intend make the first version of this idea sometime during the summer. However, what should I even include/leave out? The current classes that represent tasks are a bit&hellip; ambiguous (i.e. I relied heavily on <code>*args</code> for the parameters and thus made the class a bit weird/hard to understand). So, <em>refactoring OOP structure</em> is one of my main priorities. Also, I don&rsquo;t need fancy visuals (may or may not come later) as of yet&ndash;yes that means <em>getting rid of that strange Tkinter graph output</em>. Also I should really <em>make adding tasks a lot easier</em> since I&rsquo;m aiming to create a simple-to-use but functional program. NLP? Sounds like a stretch, but could be a great inspiration for the feature.</p>
+<p>Moreover, I hope this new direction of this project will utilize ML in some way to <em>optimize the schedule</em> (i.e. simply tasks to focus on for the day). Couple that with <em>assignment types</em> like essay, review guide, or pset, each with a specified importance metric, and thus implying a <em>new priority score</em>, and we would have a base to work on. Other impactful features include:</p>
+<ul>
+<li>consider busy periods (e.g. exams, rest days)</li>
+<li>consider past data (e.g. completing a task won&rsquo;t entirely change the schedule to avoid overwork/stress)</li>
+<li>optimization algorithms. I already have that knapsack algorithm for maximizing the priority and minimizing the total time spent working. how about we can do:
+<ul>
+<li>maximizing free time, minimizing tardiness</li>
+<li>maximizing number of tasks, minimizing difficulty</li>
+</ul>
+</li>
+<li>task dependencies -&gt; maximize chain length, minimize tardiness/minimizing time worked</li>
+<li>all of these can be preferences set by the user. e.g.:
+<ul>
+<li>&ldquo;Free as a bird&rdquo; -&gt; generates the schedule giving you the most free time while still tackling larger assignments; downside is, you may be working up to the deadline</li>
+<li>&ldquo;Early bird gets the worm&rdquo; -&gt; tardiness will not be tolerated, no matter what</li>
+<li>&ldquo;Frogs in the morning??&rdquo; -&gt; tasks with the highest difficulty are thrown at ya!</li>
+<li>&ldquo;I am speed&rdquo; -&gt; lower the difficulty but maximize the number of completed tasks</li>
+</ul>
+</li>
+</ul>
+<p>These ideas may obviously change, but everything mentioned, if synthesized into one product, may be what people want to see in a task manager: not a place to drop your tasks in a list, left only to be indefinitely dragged around every day, but as something you can count on to manage your tasks.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Python program I started making in my first year at MIT. It&rsquo;s stored in a repo but I&rsquo;m waiting until I arrive at a first version that meets my level of functionality before I publicize it&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>
+            © 2024 Andre J Patterson, Built with
+            <a href="https://gohugo.io" class="footerLink">Hugo</a> and
+            <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme
+        </span>
+    
+</footer>
+    </div>
+
+</body>
+
+</html>

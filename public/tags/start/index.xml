@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Start on nemmieblogsite</title>
+    <link>http://localhost:1313/tags/start/</link>
+    <description>Recent content in Start on nemmieblogsite</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Aug 2024 02:36:42 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/start/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Thu, 08 Aug 2024 02:36:42 -0400</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>hello how are you</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/posts/tratate-update-%230/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tratate-update-%230/</guid>
+      <description>thoughts on the future of TRATATE 5/14/2024 As of right now, it&amp;rsquo;s been a while since I&amp;rsquo;ve updated this project, which was mostly due to school and a general loss of interest. I&amp;rsquo;ve come full circle funnily enough, thinking about how to effectively manage tasks again and failing to find a tool that fits my specific needs. What are those needs? Currently, it&amp;rsquo;s only one: I&amp;rsquo;d like a program that is awfully simple to use, but under the hood takes into consideration user preferences and past task completion data to make a proper schedule&amp;hellip; Okay, well maybe more than one but the gist of what it should do is presented here.</description>
+    </item>
+  </channel>
+</rss>

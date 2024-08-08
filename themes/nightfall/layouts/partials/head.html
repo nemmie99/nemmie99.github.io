@@ -25,3 +25,5 @@
 <link href="{{ $style.RelPermalink }}" rel="stylesheet">
 
 {{ partial "custom-head.html" . }}
+
+{{ if .Params.math }}{{ partial "katex.html" . }}{{ end }}

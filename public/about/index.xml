@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on nemmieblogsite</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on nemmieblogsite</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Aug 2024 03:16:57 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/about-me/</link>
+      <pubDate>Thu, 08 Aug 2024 03:16:57 -0400</pubDate>
+      <guid>http://localhost:1313/about/about-me/</guid>
+      <description>Enjoyer of pure mathematics || cybsec/data science/AT || artist/animator || pianist in works || aprendiendo español para enseñar matemáticas p. ej. calculo 3 || love cats || reading literature and philosophy || python/js/cpp/c/rust/java1&#xA;2&#xA;take a guess which is my least favorite language&amp;#160;&amp;#x21a9;&amp;#xfe0e;&#xA;cute russian blue&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
+  </channel>
+</rss>
